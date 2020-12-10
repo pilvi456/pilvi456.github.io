@@ -1,0 +1,248 @@
+body {
+	background-color: #ffffb3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-list {
+	list-style-type: none;
+}
+
+.isokuva {
+	width: 100%;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+.coltyyli {
+	padding: 0%;
+	margin: 0%;
+}
+
+.coltyyli2 {
+	padding: 0% 1%;
+	margin: 0%;
+}
+
+#kuva12tyyli {
+	width:100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+a.maininavi:hover {
+	background: #003300;
+	text-decoration: underline;
+	transition-duration: 2s;
+}
+
+a.maininavi:active {
+	background-color: #660033;  
+}
+
+.nav-link {
+	font-size:20px;
+}
+
+a.linkit {
+	font-size: 18px;
+	color: #002db3;
+	transition-duration: 3s;
+	text-decoration: none;
+}
+
+a.linkit:hover, active {
+	color: #e60000;  
+}
+
+a.linkit:active {
+	color: #39e600;  
+}
+
+#kuva20tyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+#kuva2015tyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+.copyntyyli {
+	padding-left: 50%;
+}
+
+#kuva30tyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+.rowin2tyyli {
+	padding-top: 15px;
+} 
+
+footer {
+   width: 100%;
+   height: 50px;
+   background-color: #d6d6c2;
+   color: black;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 10px;
+   text-shadow: 2px 3px #e6ffff;
+}
+
+.karusellikuva {
+	width: 100%;
+	height: auto;
+}
+
+#kuvatyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+#kuvaDtyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+#kuvaEtyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+#kuvaKtyyli {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border-style: double;
+	border-color: #b3cccc;
+	border-width: 8px;
+}
+
+#linkkiotsikko {
+	font-size:22px;
+	padding-left:5%;
+	text-decoration: none;
+}
+
+
+a.SRLlahde {
+	color: #8533ff;
+	transition-duration: 2s;
+	text-decoration: none;
+}
+
+a.SRLlahde:hover {
+	color: #b30059;
+}
+
+a.YLElahde {
+	color: #8533ff;
+	transition-duration: 2s;
+	text-decoration: none;
+}
+
+a.YLElahde:hover {
+	color: #ff0080;
+}
+
+.pppp {
+	font-size: 20px;
+	text-align: center;
+}
+
+.ppp {
+	font-size: 18px;
+}
+
+a.video2 {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a.video2:hover {
+	font-size: 110%;
+	background:  #ffe6ff;
+	color: #cc0099;
+	transition-duration: 2s;
+	text-decoration: underline;
+}
+
+#vihrea {
+	float:right;
+}
+
+#sydan {
+	width: 20px;
+	height: auto;
+}
+
+.laatikko {
+	border: 1px solid #80ff80;
+	padding-top: 10px;
+	border-radius: 20px;
+	background-color:#ffffcc;
+	box-shadow: 5px 10px #d6d6c2;
+	width: 100%;
+	height: auto;
+	background-image: linear-gradient(to right, #ccffcc,  #ffff99);
+}
+
+.toinenrowtyyli {
+	padding-top:3%;
+}
+
+.card {
+	 width: 18rem;
+	 height: auto;
+	 background-color: #e6ffcc;
+	 text-align: center;
+	 border-radius: 8px;
+	 border: inset 4px #66ff33;
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #e6fff5;
+    color: #1a1a00;
+  }
+}
